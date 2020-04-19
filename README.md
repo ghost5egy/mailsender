@@ -18,4 +18,4 @@ the way to use :
 
 -m or --messege : the message body that will be sent .\n
 
-sendmailg(gserver , gport , guser, gpass , mailfrom , mailto , msg , ishtml)
+mailsender.py -s --server -p --port -u --user -k --password -f --mailfrom -t --mailto -d --subject -m --messege
