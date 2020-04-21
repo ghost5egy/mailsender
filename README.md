@@ -1,21 +1,19 @@
 mailsender 
 
 the way to use :
+  afer you run the script it well ask you which mode you need single mail mode or multi mode 
+    smtp server : is the server you want use to send mail .
 
--s or --server : is the server you want use to send mail .
+    smtp port : the port of the smtp service .
 
--p or --port : the port of the smtp service .
+    smtp user : the user of the service .
 
--u or --user : the user of the service .
+    smtp password : the password of the service .
 
--k or --password : the password of the service .
+    mail from : the sender mail .
 
--f or --mailfrom : the sender mail .
+    mail to : the reciver of the mail in single mode it's email address in multi mode it's mail list text file  .
 
--t or --mailto : the reciver of the mail .
+    subject : the subject of the messege  .
 
--d or --subject : the subject of the messege  .
-
--m or --messege : the message body that will be sent .
-
-mailsender.py -s --server -p --port -u --user -k --password -f --mailfrom -t --mailto -d --subject -m --messege
+    messege : the message body that will be sent .
