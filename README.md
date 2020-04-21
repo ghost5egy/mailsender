@@ -2,6 +2,7 @@ mailsender
 
 the way to use :
   afer you run the script it well ask you which mode you need single mail mode or multi mode 
+    
     smtp server : is the server you want use to send mail .
 
     smtp port : the port of the smtp service .
