@@ -35,7 +35,7 @@ def sendmailg(gserver , gport ,guser, gpass , mailfrom , mailto , subject ,msg ,
     else:
         mailmsg.add_header('Content-Type','text/plain')
 
-    mailmsg.set_payload (msg)
+    mailmsg.set_payload (msg, 'utf-8')
     with SMTP(gserver , gport)  as smtp:
         smtp.ehlo()
         smtp.starttls()
